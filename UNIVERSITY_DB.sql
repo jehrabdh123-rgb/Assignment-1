@@ -82,6 +82,14 @@ SELECT * FROM instructors;
 SELECT * FROM enrollments;
 SELECT * FROM departments;
 
+--UPDATE example 
+UPDATE students
+SET firstname = 'Aarav'
+where studentid = 1;
+
+--DELETE example (run only when needed)
+--DELETE FROM students WHERE studentid = 1;
+
 
 -- 2. Retrieve students who enrolled after 2022.
 SELECT * FROM enrollments 
@@ -175,4 +183,3 @@ SELECT studentid, enrollmentdate,
         ELSE 'Junior' 
     END AS student_level 
 FROM students;  
-.
