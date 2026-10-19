@@ -83,9 +83,9 @@ SELECT * FROM enrollments;
 SELECT * FROM departments;
 
 --UPDATE example 
-UPDATE students
-SET firstname = 'Aarav'
-where studentid = 1;
+--UPDATE students
+--SET firstname = 'Aarav'
+--where studentid = 1;
 
 --DELETE example (run only when needed)
 --DELETE FROM students WHERE studentid = 1;
